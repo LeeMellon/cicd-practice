@@ -1,14 +1,36 @@
 {
   "name": "cicd-practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "A practice repo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gitcz": "git-cz",
+    "publish": "lerna publish --conventional-commits -y",
+    "lerna:install": "lerna bootstrap",
+    "postinstall": "npm run lerna:install",
+    "pretty-check": "prettier --check packages/**/*.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:LeeMellon/cicd-practice.git"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "commitizen": "^4.2.0",
     "lerna": "^3.22.1"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.2.1",
+    "eslint": "^7.7.0",
+    "jest": "^26.4.2",
+    "prettier": "^2.1.0",
+    "semantic-release": "^17.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
