@@ -1,7 +1,7 @@
 'use strict';
-
+const testPackageOne = require('../../test-package-one/lib/test-package-one')
 const testPackageTwo = require('../lib/test-package-two');
 
-describe('test-package-two', () => {
-    it('needs tests');
+test('test-package-two', () => {
+    expect(testPackageTwo(testPackageOne)).toEqual(15);
 });
