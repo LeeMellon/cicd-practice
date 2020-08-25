@@ -1,0 +1,30 @@
+{
+  "name": "eslint-cg",
+  "version": "0.0.0",
+  "description": "an eslint config test package",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "IMGoodrich <igoodrich@phase2technology.com>",
+  "homepage": "https://github.com/LeeMellon/cicd-practice#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__",
+    "directory": "packages/eslint-cg"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeMellon/cicd-practice.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/LeeMellon/cicd-practice/issues"
+  }
+}
