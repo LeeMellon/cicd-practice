@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports = testPackageTwo;
+const _= require('lodash');
 
-function testPackageTwo() {
-    // TODO
-}
+const testPackageTwo = (array) => _.reduce(array, (acc, number) => acc + number);
+
+module.exports = testPackageTwo;
