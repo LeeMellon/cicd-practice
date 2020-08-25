@@ -1,0 +1,31 @@
+{
+  "name": "test-package-one",
+  "version": "0.0.0",
+  "description": "A test package",
+  "keywords": [
+    "testing",
+    "array"
+  ],
+  "author": "IMGoodrich <igoodrich@phase2technology.com>",
+  "homepage": "https://github.com/LeeMellon/cicd-practice#readme",
+  "license": "ISC",
+  "main": "lib/test-package-one.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__",
+    "directory": "packages/test-package-one"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeMellon/cicd-practice.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/LeeMellon/cicd-practice/issues"
+  }
+}
