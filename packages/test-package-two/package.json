@@ -1,5 +1,5 @@
 {
-  "name": "test-package-two",
+  "name": "@imgoodrich/test-package-two",
   "version": "0.1.0",
   "description": "A test package",
   "keywords": [
@@ -28,5 +28,6 @@
   },
   "bugs": {
     "url": "https://github.com/LeeMellon/cicd-practice/issues"
-  }
+  },
+  "gitHead": "a44cb4811d8615d875fe13f387c5c17651a2e7df"
 }
