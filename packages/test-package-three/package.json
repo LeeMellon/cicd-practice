@@ -1,0 +1,27 @@
+{
+  "name": "test-package-three",
+  "version": "0.0.0",
+  "description": "a lerna test package",
+  "author": "IMGoodrich <igoodrich@phase2technology.com>",
+  "homepage": "https://github.com/LeeMellon/cicd-practice#readme",
+  "license": "ISC",
+  "main": "lib/test-package-three.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeMellon/cicd-practice.git",
+    "directory": "packages/test-package-three"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/LeeMellon/cicd-practice/issues"
+  }
+}
