@@ -1,6 +1,6 @@
 {
   "name": "@imgoodrich/test-package-three",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "a lerna test package",
   "author": "IMGoodrich <igoodrich@phase2technology.com>",
   "homepage": "https://github.com/LeeMellon/cicd-practice#readme",

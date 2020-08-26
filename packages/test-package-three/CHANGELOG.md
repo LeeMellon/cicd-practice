@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/LeeMellon/cicd-practice/compare/@imgoodrich/test-package-three@0.2.0...@imgoodrich/test-package-three@0.2.1) (2020-08-26)
+
+
+### Bug Fixes
+
+* add   "publishConfig": { ([e9a17a8](https://github.com/LeeMellon/cicd-practice/commit/e9a17a8a8c270d64fc816d0e23b360477bfb695b))
+
+
+
+
+
 # 0.2.0 (2020-08-26)
 
 
