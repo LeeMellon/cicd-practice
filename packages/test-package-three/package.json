@@ -1,5 +1,5 @@
 {
-  "name": "test-package-three",
+  "name": "@imgoodrich/test-package-three",
   "version": "0.1.0",
   "description": "a lerna test package",
   "author": "IMGoodrich <igoodrich@phase2technology.com>",
@@ -23,5 +23,6 @@
   },
   "bugs": {
     "url": "https://github.com/LeeMellon/cicd-practice/issues"
-  }
+  },
+  "gitHead": "a44cb4811d8615d875fe13f387c5c17651a2e7df"
 }
