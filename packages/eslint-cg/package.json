@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/LeeMellon/cicd-practice/issues"
   },
-  "gitHead": "a44cb4811d8615d875fe13f387c5c17651a2e7df"
+  "gitHead": "252934f55a18fc5423457f3daf1c7f0038dc2951",
+  "publishConfig": {
+    "access": "public"
+  }
 }
