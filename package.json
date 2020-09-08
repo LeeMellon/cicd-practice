@@ -1,6 +1,6 @@
 {
   "name": "cicd-practice",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "A practice repo",
   "main": "index.js",
   "scripts": {
@@ -9,17 +9,19 @@
     "lerna:install": "lerna bootstrap --hoist",
     "postinstall": "npm run lerna:install",
     "pretty-check": "prettier --check packages/**/*.js",
-    "test": "jest"
+    "test": "jest",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:LeeMellon/cicd-practice.git"
+    "url": "https://github.com/LeeMellon/cicd-practice.git"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "commitizen": "^4.2.0",
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "semantic-release-cli": "^5.4.0"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.2.1",
