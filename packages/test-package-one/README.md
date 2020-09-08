@@ -1,6 +1,6 @@
 # `test-package-one`
 
-> TODO: description
+An array of numbers from 1 to 5 that is used to do some very important testing. So important! 
 
 ## Usage
 
