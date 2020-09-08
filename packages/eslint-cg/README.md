@@ -1,6 +1,6 @@
 # `elsint-cg`
 
-> TODO: description
+> Some lint stuff just for appearances.
 
 ## Usage
 
